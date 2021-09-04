@@ -3,7 +3,8 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-ntp', '9.1.0'
 
 mod 'apache',
-  :git => 'git@github.com:renanvicente/apache.git'
+  :git    => 'git@github.com:renanvicente/apache.git',
+  :branch => 'main'
   
 
 # Modules from the Puppet Forge
