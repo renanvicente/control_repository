@@ -6,6 +6,9 @@ mod 'apache',
   :git    => 'git@github.com:renanvicente/apache.git',
   :branch => 'main'
   
+mod 'base',
+  :git    => 'git@github.com:renanvicente/puppettest-base.git',
+  :branch => 'main'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
